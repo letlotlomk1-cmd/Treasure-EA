@@ -1,6 +1,6 @@
 # Treasure EA
 
-This repository contains MQL5 expert advisors for a market structure and liquidity-based trading system, focused on ICT/SMC-style trade logic. The main project file is `Treasure_EA_v3_0.mq5`, with older versioned builds also included for reference and comparison.
+This repository contains MQL5 expert advisors for a market structure and liquidity-based trading system, focused on ICT/SMC-style trade logic. The main project file is `Treasure_EA_v3_0.mq5`, with earlier and alternate versions stored alongside it.
 
 ## Project purpose
 
@@ -41,6 +41,35 @@ This indicates the system is intended to trade around liquidity grabs and struct
 - `Treasure_EA_v2.0.mq5` — empty placeholder / legacy file
 - `Treasure AI v2.1.png` and `XAUUSDmicroTREASUREEAV2.1.png` — screenshots / strategy visuals
 
+## Version overview and updates
+
+This repository contains several version iterations of the EA, each reflecting a progression in the strategy design:
+
+- `Treasure_EA_v2.0.mq5` — legacy or placeholder state; not the main functional version.
+- `Treasure_EA_v2_2.mq5` — early working strategy iteration with basic market-structure and execution logic.
+- `Treasure_EA_v2_3.mq5` — improved version with more filters, risk controls, and trade logic refinement.
+- `Treasure_EA_v3_0.mq5` — main current version; the most complete and feature-rich system in the repo.
+- `Advanced_SMC_ICT_SMT_News_EA_FIXED.mq5` — alternate tuned version focused on a specialized SMC/ICT/news-style configuration.
+
+### Update progression
+
+- From v2.0 to v2.2: the project moved from placeholder/legacy code toward a more functional trading framework.
+- From v2.2 to v2.3: the system gained broader filtering, improved execution conditions, and more advanced strategy logic.
+- From v2.3 to v3.0: the EA was expanded into a full decision engine with HTF bias checks, kill zones, liquidity sweeps, MSS confirmation, premium/discount filtering, risk controls, and partial exit logic.
+
+## Predicted performance outlook
+
+This repository does not include verified trading results, live account statements, audited backtests, or a published win-rate report. Because of that, there is no evidence-based claim that any version is consistently profitable.
+
+A realistic performance expectation is:
+
+- Possible edge in favorable market conditions where liquidity sweeps and structural alignment are clear.
+- Higher sensitivity to spread, volatility, and session timing.
+- Increased risk during choppy or news-driven periods when the setup rules may be less reliable.
+- Performance depends strongly on broker conditions, risk settings, symbol selection, and tuning.
+
+In practical terms, the EA appears to be a research/experimental ICT/SMC strategy rather than a guaranteed high-performance production system. It should be treated as a strategy candidate requiring demo testing, forward testing, and careful parameter review before any live use.
+
 ## What the EA appears to include
 
 From the source, the EA includes:
@@ -80,11 +109,11 @@ This is much more than a simple indicator: it is a full decision engine with tra
 
 ## Important caution
 
-This repository is for algorithmic trading research and strategy experimentation. It is not a guarantee of profitability. Forex and CFD trading involve substantial risk, and any automated system should be evaluated carefully with backtesting, forward testing, and risk controls.
+This repository is for algorithmic trading research and strategy experimentation. It is not a guarantee of profitability. Forex and CFD trading involve substantial risk, and any automated system should be tested carefully before real-money deployment.
 
 ## Summary
 
-Treasure EA is an MQL5 ICT/SMC trading bot focused on liquidity sweeps, displacement, market structure, and risk-managed entries. The main branch is centered on `Treasure_EA_v3_0.mq5`, with multiple historical versions and compiled builds preserved in the repository for comparison.
+Treasure EA is an MQL5 ICT/SMC trading bot focused on liquidity sweeps, displacement, market structure, and risk-managed entries. The main branch is centered on `Treasure_EA_v3_0.mq5`, with multiple earlier versions and a specialized variation also present in the repository.
 
 ## Suggested next steps
 
